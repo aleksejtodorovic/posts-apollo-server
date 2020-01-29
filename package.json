@@ -1,0 +1,28 @@
+{
+  "name": "posts-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleksejtodorovic/posts-apollo-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/aleksejtodorovic/posts-fully-apollo-graphql#readme",
+  "dependencies": {
+    "apollo-server": "^2.9.16",
+    "bcryptjs": "^2.4.3",
+    "graphql": "^14.5.8",
+    "graphql-tag": "^2.10.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
